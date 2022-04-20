@@ -15,6 +15,13 @@
     align-items: center;
 }
 
+.blue-check::before{
+    content: "\2713" ;
+    color: #0061FF;
+    font-size: 25px;
+}
+
+
 .logo {
     background-image: url("../img/logo-small.png");
     width: 180px;
@@ -23,6 +30,18 @@
     background-position: center;
     background-repeat: no-repeat;
     margin-right: 15px;
+}
+
+.iconsmall{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.freccia{
+    padding-top: 70px;
+    font-size:50px;
+    font-weight: 900;
 }
 
 .button-center {
