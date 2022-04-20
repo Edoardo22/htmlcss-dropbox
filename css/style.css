@@ -243,18 +243,18 @@ label {
 }
 
 .small-pic {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .pic1 {
-    background-image: url("../img/business-feature-coordinate-it.png");
+    background-image: url("../img/business-feature-switching-tools.png");
 }
 
 .pic2 {
-    background-image: url("../img/business-feature-coordinate-it.png");
+    background-image: url("../img/business-feature-send-files-it.png");
 }
 
 .pic3 {
@@ -262,15 +262,15 @@ label {
 }
 
 .pic4 {
-    background-image: url("../img/business-feature-coordinate-it.png");
+    background-image: url("../img/business-feature-integrations-it.png");
 }
 
 .pic5 {
-    background-image: url("../img/business-feature-coordinate-it.png");
+    background-image: url("../img/business-feature-multi-device.png");
 }
 
 .pic6 {
-    background-image: url("../img/business-feature-coordinate-it.png");
+    background-image: url("../img/business-feature-security.png");
 }
 
 .nopad {
@@ -305,6 +305,7 @@ label {
 
 .square1 {
     background-color: #A2D39B;
+    border: 15px solid #ffffff94; 
 }
 
 .square2 {
