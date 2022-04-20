@@ -15,8 +15,8 @@
     align-items: center;
 }
 
-.blue-check::before{
-    content: "\2713" ;
+.blue-check::before {
+    content: "\2713";
     color: #0061FF;
     font-size: 25px;
 }
@@ -32,15 +32,15 @@
     margin-right: 15px;
 }
 
-.iconsmall{
+.iconsmall {
     width: 24px;
     height: 24px;
     vertical-align: middle;
 }
 
-.freccia{
+.freccia {
     padding-top: 70px;
-    font-size:50px;
+    font-size: 50px;
     font-weight: 900;
 }
 
@@ -75,7 +75,7 @@ button {
     color: grey;
 }
 
-hr {
+.linesmall {
     width: 50px;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -305,7 +305,7 @@ label {
 
 .square1 {
     background-color: #A2D39B;
-    border: 15px solid #ffffff94; 
+    border: 15px solid #ffffff94;
 }
 
 .square2 {
@@ -342,7 +342,7 @@ label {
     background-position: center;
     width: 150px;
     height: 150px;
-    
+
 }
 
 .big-pic1 {
@@ -377,7 +377,40 @@ label {
     background-image: url("../img/clear_channel.svg");
 }
 
-.logo-des{
+.logo-des {
     width: 300px;
     height: 300px;
+}
+
+.container-prefoot {
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 150px;
+}
+
+.red {
+    color: #61082B;
+    max-width: 550px;
+}
+
+.padding-med {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+.listdown {
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.askq {
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+.arr {
+    padding-left: 400px;
 }
