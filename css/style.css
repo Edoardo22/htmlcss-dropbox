@@ -8,6 +8,10 @@
 .nav {
     justify-content: space-between;
     padding: 10px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .nav-link {
@@ -86,7 +90,6 @@ button {
     margin: 0 auto;
     padding-top: 90px;
     padding-bottom: 100px;
-    max-height: fit-content;
     max-height: 700px;
 }
 
@@ -153,11 +156,12 @@ label {
     display: flex;
     gap: 30px;
 }
-
-.col {
-    width: calc(100% / 3);
+.colborder{
     border: 1px solid grey;
     min-height: 900px;
+}
+.col {
+    width: calc(100% / 3);
 }
 
 .plan-type {
@@ -238,8 +242,7 @@ label {
 .pic-des {
     flex-direction: column;
     gap: 30px;
-    width: calc(100% / 3);
-
+    padding: 15px;
 }
 
 .small-pic {
@@ -284,14 +287,16 @@ label {
 
 .square-brand {
     flex-wrap: wrap;
-    max-width: calc(100% / 3);
-
 }
 
 .square-center {
-    max-width: calc(100% / 3);
+    background-color: #F5F5F5;
+    flex-grow: 1;
+    padding: 40px;
 }
-
+.designit-text{
+    padding-bottom: 40px;
+}
 .flex-square {
     display: flex;
     justify-content: center;
@@ -342,7 +347,8 @@ label {
     background-position: center;
     width: 150px;
     height: 150px;
-
+    filter: invert(1);
+    align-self: center;
 }
 
 .big-pic1 {
@@ -378,8 +384,12 @@ label {
 }
 
 .logo-des {
-    width: 300px;
-    height: 300px;
+    width: 270px;
+    height: 135px;
+    background-image: url(../img/designit.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 .container-prefoot {
@@ -411,6 +421,49 @@ label {
     border-bottom: 1px solid black;
 }
 
-.arr {
-    padding-left: 400px;
+.arr{
+    background-image: url("../img/angle-down-solid.svg");
+    width: 14px;
+    height: 14px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 350px;
+    background-position: bottom;
+}
+
+.black{
+    background-color: black;
+    margin-top: 120px;
+}
+.col-5{
+    width: calc(100% / 5);
+    flex-grow: 1;
+    flex-direction: column;
+    gap: 15px;
+    color: rgba(255, 255, 255, 0.712);
+}
+.brightwhite{
+    color: white;
+    padding-bottom: 15px;
+}
+.lightwhite{
+    color: rgba(255, 255, 255, 0.712);
+}
+.colfoot{
+    gap: 40px;   
+}
+.linefoot{
+    width: 120px;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+.caretup{
+    filter: invert(1);
+}
+
+.lingua img{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding:2px;
 }
