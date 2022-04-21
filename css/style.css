@@ -69,6 +69,10 @@ button {
     border: 1px solid grey;
 }
 
+.contact {
+    width: 240px;
+}
+
 .blue {
     background-color: #0061FF;
     color: white;
@@ -93,11 +97,12 @@ button {
     top: 85px;
 }
 
-.container-foot{
+.container-foot {
     width: 1260px;
     margin: 0 auto;
     padding-top: 90px;
 }
+
 .container-main {
     max-width: 1100px;
     margin: 0 auto;
@@ -160,10 +165,12 @@ label {
     display: flex;
     gap: 30px;
 }
-.colborder{
+
+.colborder {
     border: 1px solid grey;
     min-height: 900px;
 }
+
 .col {
     width: calc(100% / 3);
 }
@@ -188,6 +195,7 @@ label {
 .future {
     margin-top: 20px;
     margin-bottom: 20px;
+    min-height: 235px;
 }
 
 .team {
@@ -284,9 +292,10 @@ label {
     padding: 0;
 }
 
-.container-pig-pic {
+.container-big-pic {
     padding-top: 120px;
     justify-content: space-between;
+    min-height: 800px;
 }
 
 .square-brand {
@@ -298,9 +307,11 @@ label {
     flex-grow: 1;
     padding: 40px;
 }
-.designit-text{
+
+.designit-text {
     padding-bottom: 40px;
 }
+
 .flex-square {
     display: flex;
     justify-content: center;
@@ -426,7 +437,7 @@ label {
     border-bottom: 1px solid black;
 }
 
-.arr{
+.arr {
     background-image: url("../img/angle-down-solid.svg");
     width: 14px;
     height: 14px;
@@ -436,39 +447,44 @@ label {
     background-position: bottom;
 }
 
-.black{
+.black {
     background-color: black;
     margin-top: 120px;
 }
-.col-5{
+
+.col-5 {
     width: calc(100% / 5);
     flex-grow: 1;
     flex-direction: column;
     gap: 15px;
     color: rgba(255, 255, 255, 0.712);
 }
-.brightwhite{
+
+.brightwhite {
     color: white;
     padding-bottom: 15px;
 }
-.lightwhite{
+
+.lightwhite {
     color: rgba(255, 255, 255, 0.712);
 }
-.colfoot{
-    gap: 40px;   
+
+.colfoot {
+    gap: 40px;
 }
-.linefoot{
+
+.linefoot {
     width: 120px;
     margin-bottom: 40px;
     margin-top: 100px;
 }
 
-.caretup{
+.caretup {
     filter: invert(1);
 }
 
-.lingua img{
+.lingua img {
     margin-left: 5px;
     margin-right: 5px;
-    padding:2px;
+    padding: 2px;
 }
