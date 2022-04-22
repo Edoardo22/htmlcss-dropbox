@@ -90,7 +90,7 @@ button {
 }
 
 .container-head {
-    width: 1260px;
+    max-width: 1260px;
     margin: 0 auto;
     padding-top: 90px;
     position: relative;
@@ -98,7 +98,7 @@ button {
 }
 
 .container-foot {
-    width: 1260px;
+    max-width: 1260px;
     margin: 0 auto;
     padding-top: 90px;
 }
@@ -258,8 +258,8 @@ label {
 }
 
 .small-pic {
-    width: 250px;
-    height: 250px;
+    width: 80%;
+    aspect-ratio: 1/1;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -295,7 +295,6 @@ label {
 .container-big-pic {
     padding-top: 120px;
     justify-content: space-between;
-    min-height: 800px;
 }
 
 .square-brand {
@@ -319,8 +318,8 @@ label {
 }
 
 .form {
-    width: calc(100% / 2);
-    height: calc(100% / 2);
+    width: 50%;
+    aspect-ratio: 1/1;
 }
 
 .square1 {
@@ -360,8 +359,8 @@ label {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 150px;
-    height: 150px;
+    width: 50%;
+    aspect-ratio: 1/1;
     filter: invert(1);
     align-self: center;
 }
