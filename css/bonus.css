@@ -18,7 +18,7 @@
     gap: 30px;
     align-items: center;
 }
-.nav-link a:focus{
+.nav-link a:hover{
     border-bottom: 1px solid black;
 }
 .blue-check::before {
@@ -71,7 +71,7 @@ button {
     border: 1px solid grey;
 }
 
-.button-white:focus{
+.button-white:hover{
     color: rgba(0, 0, 0, 0.63);
 }
 .contact {
@@ -83,7 +83,7 @@ button {
     color: white;
     border: 0;
 }
-.blue:focus{
+.blue:hover{
     background-color:#0062ffc4 ;
     color: rgba(255, 255, 255, 0.774);
 }
