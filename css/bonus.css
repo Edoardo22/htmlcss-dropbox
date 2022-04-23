@@ -317,6 +317,7 @@ label {
 
 .brand-text {
     padding-bottom: 40px;
+
 }
 
 .flex-square {
@@ -335,48 +336,65 @@ label {
 }
 .square1:focus{
     border: 15px solid #ffffff94;
+    transition: 0.3s;
 }
+
+
+.square1:focus~#despub{
+    background-color: blue;
+    display: block;
+}
+
+
 .square2 {
     background-color: #61082B;
 }
+
 .square2:focus {
     border: 15px solid #b11252c0;
+    transition: 0.3s;
 }
 .square3 {
     background-color: #0093CE;
 }
 .square3:focus {
     border: 15px solid #44b8e6cc;
+    transition: 0.3s;
 }
 .square4 {
     background-color: #FF1C1C;
 }
 .square4:focus {
     border: 15px solid #eb4d4d;
+    transition: 0.3s;
 }
 .square5 {
     background-color: #D5001F;
 }
 .square5:focus {
     border: 15px solid #ee3f59a2;
+    transition: 0.3s;
 }
 .square6 {
     background-color: #B4D0E7;
 }
 .square6:focus {
     border: 15px solid #cddbe6c9;
+    transition: 0.3s;
 }
 .square7 {
     background-color: #0D2481;
 }
 .square7:focus {
     border: 15px solid #334797ce;
+    transition: 0.3s;
 }
 .square8 {
     background-color: #FFD830;
 }
 .square8:focus {
     border: 15px solid #ddc765b9;
+    transition: 0.3s;
 }
 .xl-pic {
     background-size: contain;
