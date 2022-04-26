@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-size: 18px;
 }
-
+a{
+    text-decoration: none;
+}
 .nav {
     justify-content: space-between;
     padding: 10px;
@@ -317,7 +319,7 @@ label {
 
 .brand-text {
     padding-bottom: 40px;
-
+    display: none;
 }
 
 .flex-square {
@@ -339,7 +341,9 @@ label {
     transition: 0.3s;
 }
 
-
+.square1:focus #despub{
+    display: block;
+}
 .square1:focus~#despub{
     background-color: blue;
     display: block;
